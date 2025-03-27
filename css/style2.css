@@ -1,0 +1,55 @@
+.service.service-one {
+  transition: all 0.5s ease;
+}
+
+.service.service-one:hover {
+  background-color: #EA580C;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.service.service-one:hover i {
+  color: #ffffff !important;
+}
+
+
+
+.service.service-one:hover .para {
+  color: #ffffff !important;
+}
+
+.service.service-one:hover a {
+  color: #ffffff !important;
+}
+
+.service.service-two {
+  transition: all 0.5s ease;
+}
+
+.service.service-two:hover {
+  background-color: #f2f6fa !important;
+}
+
+.service .content .title:hover {
+  color: #EA580C !important;
+}
+
+.service.service-three .service-img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.service.service-four i {
+  height: 60px;
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: rgba(234, 88, 12, 0.1);
+}
+
+.service.service-five .btn {
+  background-color: rgba(234, 88, 12, 0.1);
+}
+
